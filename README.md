@@ -1,4 +1,4 @@
-![工具界面预览](screenshot.png)
+![工具界面预览](uiscreenshot.png)
 
 # Google Ads Keyword Tool
 
