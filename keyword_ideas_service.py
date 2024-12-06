@@ -114,7 +114,7 @@ class KeywordIdeasService:
                     'keyword': result.text,
                     'monthly_searches': [
                         MonthlySearchVolume(
-                            year_month = f"{point.year}-{point.month:02d}",
+                            year_month = f"{point.year}-{(point.month-1):02d}",
                             monthly_searches=point.monthly_searches
                         ) for point in metrics.monthly_search_volumes
                     ],
