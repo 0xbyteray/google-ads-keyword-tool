@@ -1,5 +1,3 @@
-![工具界面预览](uiscreenshot.png)
-
 # Google Ads Keyword Tool
 
 一个基于 Google Ads API 的关键词研究工具，可以获取关键词的搜索量、竞争度等数据，并计算 KGR (Keyword Golden Ratio) 值。
@@ -75,6 +73,7 @@
    - 输入关键词列表（每行一个）
    - 或输入网站 URL 获取相关关键词
    - 点击"搜索"开始获取数据
+   - 关键词目前仅支持全球搜索跟英语，不支持自定义地区与语种
 
 3. 关于 KGR 计算：
    - KGR = allintitle 结果数 / 月搜索量
